@@ -17,7 +17,7 @@
 $(call inherit-product, device/android/common/device.mk)
 
 PRODUCT_DEVICE := cyprus64
-PRODUCT_NAME := omni_cyprus64
+PRODUCT_NAME := twrp_cyprus64
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := cyprus64
 PRODUCT_MANUFACTURER := motorola
