@@ -18,7 +18,7 @@ DEVICE_PATH := device/motorola/cyprus64
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := ums512_1h10
-TARGET_NO_BOOTLOADER := true
+TARGET_NO_BOOTLOADER := false
 
 # Display
 TARGET_SCREEN_DENSITY := 280
