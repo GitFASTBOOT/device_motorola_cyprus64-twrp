@@ -16,6 +16,12 @@
 # Inherit from android-common
 $(call inherit-product, device/android/common/device.mk)
 
+# Boot control HAL
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.1-impl \
+    android.hardware.boot@1.1-impl.recovery \
+    android.hardware.boot@1.1-service
+
 PRODUCT_DEVICE := cyprus64
 PRODUCT_NAME := twrp_cyprus64
 PRODUCT_BRAND := motorola
