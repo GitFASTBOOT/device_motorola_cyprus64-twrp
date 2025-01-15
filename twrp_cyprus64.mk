@@ -22,6 +22,12 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl.recovery \
     android.hardware.boot@1.1-service
 
+# bootctrl HAL    
+PRODUCT_PACKAGES += \
+    bootctrl.default \
+    bootctrl.unisoc \
+    bootctrl.ums512.recovery
+ 
 PRODUCT_DEVICE := cyprus64
 PRODUCT_NAME := twrp_cyprus64
 PRODUCT_BRAND := motorola
